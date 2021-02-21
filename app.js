@@ -21,7 +21,7 @@ const Seattle = {
 
 
 const parentElement = document.getElementById( 'container' );
-const articleElement = document.createElement( ' article' ) ;
+const articleElement = document.createElement( 'article' ) ;
 parentElement.appendChild( articleElement );
 
 
