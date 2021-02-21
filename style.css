@@ -1,10 +1,50 @@
+main article{
+
+  background-color: turquoise;
+}
+
 main article h1{
-    color: #3e70fb;
+    color: #081e58;
     font-weight: 900;
     text-transform: capitalize;
   }
 
-  .gh{
-height: 90px;
-width: 300px;
+
+  #container{
+    color: #2349b1;
+    font-weight: 900;
+    text-transform: capitalize;
+    
+  }
+
+  #container1{
+    color: #2349b1;
+    font-weight: 900;
+    text-transform: capitalize;
+
+  }
+
+  #container2{
+    color: #2349b1;
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+
+  #container3{
+    color: #2349b1;
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+  #container4{
+    color: #2349b1;
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+
+  body{
+    background-color: skyblue;
+  }
+
+  body a { 
+    font-size: 50px;
   }
