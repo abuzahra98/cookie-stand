@@ -1,0 +1,10 @@
+main article h1{
+    color: #3e70fb;
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+
+  .gh{
+height: 90px;
+width: 300px;
+  }
