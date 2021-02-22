@@ -1,9 +1,10 @@
-main article{
+/* main article{
 
   background-color: turquoise;
-}
+} */
 
 main article h1{
+  
     color: #081e58;
     font-weight: 900;
     text-transform: capitalize;
@@ -11,40 +12,35 @@ main article h1{
 
 
   #container{
+
     color: #2349b1;
     font-weight: 900;
     text-transform: capitalize;
     
   }
 
-  #container1{
-    color: #2349b1;
-    font-weight: 900;
-    text-transform: capitalize;
-
-  }
-
-  #container2{
-    color: #2349b1;
-    font-weight: 900;
-    text-transform: capitalize;
-  }
-
-  #container3{
-    color: #2349b1;
-    font-weight: 900;
-    text-transform: capitalize;
-  }
-  #container4{
-    color: #2349b1;
-    font-weight: 900;
-    text-transform: capitalize;
-  }
 
   body{
+    display: flex;
     background-color: skyblue;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
   }
 
   body a { 
     font-size: 50px;
+  }
+
+  td, th {
+    width: 50px;
+    border: 1px solid rgb(12, 6, 6);
+    padding: 5px;
+    text-align: center;
+  }
+  
+  th {
+    vertical-align: middle;
+    background: #28527a;
+    color: #f4d160;
   }
