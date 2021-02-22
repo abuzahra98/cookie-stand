@@ -22,7 +22,7 @@ main article h1{
 
   body{
     display: flex;
-    background-color: skyblue;
+    background-color: rgb(222, 226, 165);
     justify-content: center;
     align-items: center;
     height: 90vh;
