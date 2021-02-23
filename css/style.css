@@ -44,3 +44,24 @@ main article h1{
     background: #28527a;
     color: #f4d160;
   }
+  
+  .a1{
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+  }
+  h1{
+
+    font-size: 100px;
+  }
+  div{
+    vertical-align: middle;
+    text-align: center;
+
+  }
+  a{
+    vertical-align: middle;
+    text-align: center;
+
+  }

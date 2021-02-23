@@ -101,7 +101,7 @@ City.prototype.footer = function () {
   }
   thElement = document.createElement( 'th' );
   row.appendChild( thElement );
-  thElement.textContent = 9120;
+  thElement.textContent = this.total * 13;
 };
 
 const Seattle = new City( 'Seattle', 23, 65, 6.3 );
