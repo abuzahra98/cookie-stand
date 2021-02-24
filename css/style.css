@@ -21,7 +21,7 @@ main article h1{
 
 
   body{
-    display: flex;
+    /* display: flex; */
     background-color: rgb(222, 226, 165);
     justify-content: center;
     align-items: center;
@@ -70,3 +70,28 @@ main article h1{
 
   }
 
+  form {
+    text-align: right;
+    padding-right: 25px;
+  }
+
+  label {
+    margin: 20px 5px; 
+  }
+  
+  input {
+    margin: 10px 30px;
+  }
+
+  #add-store {
+    
+    color: rgb(0, 34, 128);
+  }
+  legend {
+    padding: 10px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  
