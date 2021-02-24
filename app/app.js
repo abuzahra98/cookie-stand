@@ -53,34 +53,10 @@ City.prototype.show = function () {
   th2Element = document.createElement( 'td' );
   tr1Element.appendChild( th2Element );
   th2Element.textContent = this.total;
-
-  // const tr2Element = document.createElement( 'tr' );
-  // tableElement.appendChild( tr2Element );
-
-  // for ( let i = 0; i < hours.length; i++ ) {
-  //     const thElement = document.createElement( 'th' );
-  //     tableElement.appendChild( thElement );
-  //     thElement.textContent = this.arr[i];
-  // }
-
-  // const tr2Element = document.createElement( 'tr' );
-  // tableElement.appendChild( tr2Element );
-  // tr2Element.textContent = this.name ;
-
-  // const ulElement = document.createElement( 'ul' );
-  // articleElement.appendChild( ulElement );
-
-  // const liElement = document.createElement ( 'li' );
-  // ulElement.appendChild ( liElement );
-  // liElement.textContent = 'Total:' + ' ' + this.total + ' ' + 'cookies';
-
-
-
-
 };
 
+
 City.prototype.footer = function () {
-  // const tableElement = document.createElement( 'table' );
 
   let row = document.createElement( 'tr' );
 
@@ -101,7 +77,7 @@ City.prototype.footer = function () {
   }
   thElement = document.createElement( 'th' );
   row.appendChild( thElement );
-  thElement.textContent = this.total * 13;
+  thElement.textContent = this.total * 12;
 };
 
 const Seattle = new City( 'Seattle', 23, 65, 6.3 );
