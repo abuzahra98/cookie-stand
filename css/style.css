@@ -16,13 +16,14 @@ main article h1{
     color: #2349b1;
     font-weight: 900;
     text-transform: capitalize;
+    padding: 0 175px;
     
   }
 
 
   body{
     /* display: flex; */
-    background-color: rgb(222, 226, 165);
+    background-color: rgb(165, 226, 216);
     justify-content: center;
     align-items: center;
     height: auto;
@@ -57,6 +58,9 @@ main article h1{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 70px;
     color: rgb(56, 12, 107);
+    text-align: center;
+
+    
     
   }
   div{
@@ -112,10 +116,32 @@ float: left;
   }
 
   h2{
-font-size: large;
+font-size: 40px;
 font-family: Arial, Helvetica, sans-serif;
 
   }
   
   td{
 background-color: white;  }
+
+.ul1 li{
+  vertical-align: middle;
+  text-align: center;
+  /* clear: both; */
+  display: inline;
+  margin: 35px;
+  padding: 80px;
+
+
+}
+section  {
+  /* text-align: center; */
+  padding: 0 495px;
+  color: #081e58;
+  font-size: large;
+}
+section h2{
+color: rgb(8, 8, 8);
+text-align: center;
+
+}
