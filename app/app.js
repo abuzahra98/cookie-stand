@@ -10,12 +10,14 @@ function City( name, minCost, maxCost, AvgCookie ) {
   this.total = 0;
   obj.push( this );
 }
+// git random number for cookis
 City.prototype.getRandomInt = function getRandomInt( minCost, maxCost ) {
   minCost = Math.ceil( minCost );
   maxCost = Math.floor( maxCost );
   return Math.floor( Math.random() * ( maxCost - minCost ) + minCost );
 
 };
+// to calculate the cookiesNumber
 City.prototype.cookiesNum = function () {
   for ( let i = 1; i < hours.length - 1; i++ ) {
 
@@ -38,7 +40,7 @@ for ( let i = 0; i < hours.length; i++ ) {
   row.appendChild( thElement );
   thElement.textContent = `${hours[i]} `;
 }
-
+// this function to show result
 City.prototype.show = function () {
 
   const tr1Element = document.createElement( 'tr' );
@@ -144,5 +146,6 @@ formElement.addEventListener( 'submit', function( event ) {
   newcity.cookiesNum();
 
   newcity.show();
+  //this to invoked the last row in the table
   footer( arry );
 } );
